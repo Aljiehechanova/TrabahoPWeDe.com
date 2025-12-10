@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "swift-citadel-467401-q8",
+  "private_key_id": "95c6b6128c5ccae3214b57cc24fd70e5458edef4",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC/qC9Pkk6lmFmM\n6kGXG1xOJXHD+AZPdAN7rpxFkbGtsrTkasy2hco2aZX4wdy49Ar5dgROygPKqKa/\nY8yTLau0AjX00SZ1NJAQaZiuj8e9AzcH095eOzZCPwg1jK1qQ6DgC1BZBzClOCzh\ntOYeAXRfPft6Sp0KJZTaQUabxx1ogdrTPhUalrX3HTDGc9RHp/3Y9ilc2MouHhjl\nO6ETYw/2+M/2LnfTxvLkDppAjDS4Rnm5ERvkKgryjFdm5qCLD/U92cRykAV4tYec\nPgd/DmSMltP8REKhKFXbvBLiqaSJFcY8oOR2jUTMUZXytEj3S72oVYW2HNShxSmO\nA7/9vuJVAgMBAAECggEAChuETTm90JFhjaMwDNhKTKvAXXGn4YpQgbYScz/NA0hU\nrmQsgia5pJd6a4lLyuxB5OiSrxYLz6UH0Dmi6RMkRkTElDHwiYdZXqg2/2PBSKhR\n/2VuyYDtal55IBvYbG1/HzmxhdRxfhEhmtCnvybb/IbgC5HCSO309PKy1tXQKPny\np9H/rax/+X39fPeKj7Jjmrei5ayEm/df1kdw0XTsFNnX9stxBKTnGb94pe5ub/Ha\nUcPFTKU6oBOT1niz70dsCP7kV0zOpzvPOC/8B1QYORdJ6sD2vKyWZYVFTpwsNG8F\nJRwC2PgESZUwYBYcbcZVMNVldiDY+uraC34w+t/I2QKBgQD5+iF0Q4Xuss9ffi2C\nOULyXjFrt+uxOFg2Ql58dwnnwmq3eHy8V9WFXlLNUrCuMYs3g01ElyDTOCc6CJxn\ngiw4qE6O4eY63qq9Fx1QE6h1CYjnyZEx+nKHPwiQ9dHzJPHQhdWcH+WK+lLKy31D\nyoCXUvp7F9BXk0qOxr7wdiUr7QKBgQDERlVPONwtuRNvLnWl+hqCaFN7Mzyp0jPk\nVBI5fLi9aj3uE4+QQjsbqlF2y19lY8SglVgQ+DmoN0KDMM8I8mucaEsPLuspF4Rv\nFRous9jGe43Wtwg1LOYOv2PXQts5k7//jjraDTnhqXHFE+JNkSygcR/8otTEU/yB\nYmNicKzTCQKBgQCeS/w1YLEGiCrzwLZW2aYATw+is/RH5HNP4NVuof8eySnFB0KO\nDl0DOMjchrmlhXAwdjBO+BjsSInmoR9SGMeiFUqyBnFB5FFgrqt8UwaBHsmYZjdQ\n29T8ujjVeyU5gLK0ppuvYy97w6r8CsJHVIv7x6sgmeLwIjC7mzW8lkRRvQKBgC6b\n8ShF/WtSNv5BDykiEmeDdMed7Dr7stz25fkG2CwK7bf6py3/vF+ee4f1VasTHR9x\nN5+YAsEilkXnMlMSlmFnFuP9JVT1w7pJTZVnmgPQVWd2wZk3F07LPl9g/gRXRNHg\nKbOcTnF7NowxY50961YSZyEsXdBdjWoAPk+jKDdZAoGBAIGlW+yhW2sAcbwOgKHS\nrZ+czP0AkMFfesILYAasa5pAqtoDJmkXRDoBSYuRS2mT+bmV4wHVrLygUvfBZqiQ\n7+P7ssX9TSrTwTT8rCv+hl+WMgrLV3Ax312BKYRmkRxmguUXtcP/DUzVcAmtHHVs\nZYK0aXsTCJdkTvlLCrSx4Icg\n-----END PRIVATE KEY-----\n",
+  "client_email": "vision-api-access@swift-citadel-467401-q8.iam.gserviceaccount.com",
+  "client_id": "112370568175054920912",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/vision-api-access%40swift-citadel-467401-q8.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

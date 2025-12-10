@@ -1,0 +1,20 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  # ✅ Prevent routing for direct PHP requests
+  RewriteCond %{REQUEST_URI} \.php$
+  RewriteRule ^ - [L]
+
+  # Redirect index.php requests cleanly
+  RewriteCond %{THE_REQUEST} /index\.php [NC]
+  RewriteRule ^(.*)index\.php$ /$1 [R=301,L]
+
+  # Remove trailing slashes
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule ^(.*)/$ /$1 [L,R=301]
+
+  # Clean URL routing through index.php
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule ^(.+)$ index.php?url=$1 [QSA,L]
+</IfModule>

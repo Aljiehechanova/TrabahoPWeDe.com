@@ -1,0 +1,62 @@
+.main-content {
+  background-color: #ffffff !important;
+  border: 2px solid #c2e0c6 !important;
+  border-radius: 10px !important;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1) !important;
+  padding: 30px !important;
+  width: 100% !important;
+  max-width: 800px !important; /* or whatever max width you prefer */
+  margin: 0 auto 20px auto !important; /* Center horizontally */
+}
+
+.content-wrapper .main-content {
+  background-color: #ffffff;
+  border: 2px solid #c2e0c6;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  padding: 30px;
+  max-width: 800px;
+  width: calc(100% - 270px); /* fill remaining width */
+  margin-left: 300px; /* leave space for sidebar */
+}
+.action-buttons {
+  margin-bottom: 30px;
+  text-align: center;
+}
+.action-buttons button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  margin: 0 10px;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.action-buttons button:hover {
+  background-color: #2980b9;
+}
+
+.workshop-list {
+  background: #fff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  max-width: 900px;
+  margin: 0 auto;
+}
+.workshop-item {
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+.workshop-item:last-child {
+  border-bottom: none;
+}
+.workshop-item h4 {
+  margin: 0;
+  color: #333;
+}
+.workshop-item small {
+  color: #777;
+}

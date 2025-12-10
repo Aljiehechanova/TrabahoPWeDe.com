@@ -1,0 +1,187 @@
+/* ==============================
+   General Styling
+============================== */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #87CEEB; /* Sky Blue */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Sidebar (optional - can be hidden if not needed) */
+.sidebar {
+    width: 260px;
+    background: linear-gradient(135deg, #4682B4, #5dade2); /* Blue gradient */
+    color: white;
+    height: 100vh;
+    padding: 25px;
+    position: fixed;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 3px 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: 3px solid white;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
+
+.sidebar ul li {
+    width: 100%;
+    margin-bottom: 12px;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 14px;
+    font-size: 18px;
+    font-weight: 600;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+}
+
+.sidebar ul li a:hover,
+.sidebar ul li.active {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+/* ==============================
+   Main Content
+============================== */
+.main-content {
+    margin-left: 280px;
+    padding: 40px;
+    width: calc(100% - 280px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ==============================
+   Form Container
+============================== */
+.container {
+    max-width: 500px;
+    width: 100%;
+    background: #002147; /* Dark Blue */
+    padding: 35px;
+    border-radius: 14px;
+    box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.3);
+    margin: auto;
+    text-align: left;
+    color: white;
+}
+
+/* ==============================
+   Form Elements
+============================== */
+.form-control {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #b0c4de;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+.form-control:focus {
+    border-color: #FFD700;
+    box-shadow: 0 0 8px rgba(255, 215, 0, 0.5);
+}
+
+label {
+    font-weight: bold;
+    color: #f1f1f1;
+    display: block;
+    margin-bottom: 6px;
+}
+
+.mb-3 {
+    margin-bottom: 18px;
+}
+
+/* ==============================
+   Buttons
+============================== */
+.btn-primary {
+    background: #FFD700; /* Yellow */
+    color: #111;
+    padding: 14px;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+    transition: 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+    background: #FFC107;
+    transform: scale(1.03);
+}
+
+/* ==============================
+   Password Requirements
+============================== */
+.password-requirements {
+    font-size: 13px;
+    color: #ddd;
+    margin-top: 5px;
+}
+
+.password-requirements ul {
+    padding-left: 20px;
+}
+
+.password-requirements li.invalid {
+    color: #ff6b6b;
+}
+
+.password-requirements li.valid {
+    color: #4ade80;
+    font-weight: bold;
+}
+
+/* ==============================
+   Responsive Fix
+============================== */
+@media screen and (max-width: 768px) {
+    .sidebar {
+        display: none; /* Hide sidebar on mobile */
+    }
+
+    .main-content {
+        margin-left: 0;
+        width: 100%;
+        padding: 20px;
+    }
+
+    .container {
+        width: 95%;
+        padding: 25px;
+    }
+}

@@ -1,0 +1,121 @@
+#accessibility-panel {
+    position: fixed;
+    top: 100px;
+    right: 20px;
+    width: 80px;
+    height: 80px;
+    background-color: #0326f0;
+    border-radius: 50%;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    z-index: 9999;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    overflow: hidden;
+    cursor: grab;
+  }
+  #accessibility-panel, #accessibility-panel * {
+    filter: none !important;
+    color: inherit !important;
+    font-family: inherit !important;
+  }
+  #accessibility-panel.open {
+    height: auto;
+    width: auto;
+    padding: 10px;
+    border-radius: 20px;
+    background: #ffffff;
+    cursor: move;
+  }
+  
+  #accessibility-panel.open button {
+    margin: 5px 0;
+    width: 200px;
+    text-align: left;
+    background: #007BFF;
+    color: white;
+    padding: 8px 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  #accessibility-panel.open button:hover {
+    background: #0056b3;
+  }
+  
+  #access-btn {
+    display: none;
+  }
+  #accessibility-panel img {
+    width: 40px !important;      /* smaller width */
+    height: 40px !important;     /* smaller height */
+    object-fit: contain !important;
+    cursor: pointer !important;
+  }
+  #access-content {
+  margin-top: 10px;
+}
+
+
+,
+
+body.grayscale #access-btn {
+  display: flex !important;
+  filter: none !important;
+  background-color: #000 !important;
+  color: #fff !important;
+  border: 2px solid #fff !important;
+  z-index: 10000 !important;
+}
+
+
+
+/* Ensure accessibility tools remain visible in grayscale and high-contrast modes */
+body.high-contrast #accessibility-panel,
+body.grayscale #accessibility-panel {
+  display: flex !important;
+  filter: none !important;
+  background-color: #000 !important;
+  color: #fff !important;
+  border: 2px solid #fff !important;
+}
+
+body.high-contrast #access-btn,
+body.grayscale #access-btn {
+  display: block !important;
+  filter: none !important;
+  background-color: #000 !important;
+  color: #fff !important;
+  border: 2px solid #fff !important;
+}
+.magnifier {
+  display: none !important;
+  position: absolute !important;
+  width: 120px !important;
+  height: 120px !important;
+  border-radius: 50% !important;
+  border: 4px solid #0326f0 !important;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3) !important;
+  background: white !important;
+  z-index: 9999 !important;
+  pointer-events: none !important;
+}
+#zoom-controls button {
+  margin: 5px 0;
+  width: 200px;
+  text-align: left;
+  background: #007BFF;
+  color: white;
+  padding: 8px 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+#zoom-controls button:hover {
+  background: #0056b3;
+}

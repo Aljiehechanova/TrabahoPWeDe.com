@@ -1,0 +1,1 @@
+// JS QR scanner logic using html5-qrcode
